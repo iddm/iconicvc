@@ -1,0 +1,15 @@
+[package]
+name = "iconicvc"
+version = "0.1.0"
+authors = ["Victor Polevoy <maintainer@thefx.co>"]
+
+[dependencies]
+multimap = "*"
+
+[dev-dependencies]
+criterion = "0.2"
+rand = "0.5"
+
+[[bench]]
+name = "my_benchmark"
+harness = false
